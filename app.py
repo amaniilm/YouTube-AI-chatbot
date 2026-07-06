@@ -4,12 +4,16 @@ from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import  streamlit as st
-load_dotenv()
+import os
 st.set_page_config(
     page_title="YouTube AI Chatbot",
     page_icon="🎥"
 )
 st .title("🎥 YouTube video AI Chatbot")
+if "GOOGLE_API_KEY" in st.secrets:
+    os.environ["GOOGLE_API_KEY"]=st.secrets['GOOGLE_API_KEY']
+else:
+    load_dotenv()
 model=ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 parser=StrOutputParser()
 url=st.text_input('enter your url')
