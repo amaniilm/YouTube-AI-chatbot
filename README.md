@@ -1,5 +1,12 @@
-# YouTube-AI-chatbot
 # YouTube AI Chatbot
+## 🔗 Live Demo
+[Try it here](https://youtube-ai-chatbot-sftbrgcjpmy3ez4zwwhnnv.streamlit.app/)
+
+## Problem Statement
+
+YouTube videos, especially tutorials, lectures, podcasts, and interviews, often run 20-60+ minutes long, but viewers usually just need answers to specific questions — not the entire video. Manually scrubbing through a long video to find one relevant explanation wastes significant time.
+This project solves that by letting users paste a YouTube video link and directly ask questions about its content. The chatbot reads the video's transcript and generates a precise, relevant answer instantly — without the user needing to watch any part of the video.
+This is especially useful for students revising lecture content, professionals scanning long interviews/podcasts for key insights, or anyone trying to quickly verify if a video actually covers what they're looking for before committing time to watch it.
 
 ## Introduction
 
@@ -65,6 +72,6 @@ streamlit run app.py
 
 ## Author
 
-**Anshul Yadav**
+**Aman Kumar**
 
 B.Tech (2nd Year)
