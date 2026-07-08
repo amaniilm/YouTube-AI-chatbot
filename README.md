@@ -2,7 +2,7 @@
 ## 🔗 Live Demo
 [Try it here](https://youtube-ai-chatbot-sftbrgcjpmy3ez4zwwhnnv.streamlit.app/)
 ## 📸 Screenshot
-![App Screenshot](Screenshot.png)
+![App Screenshot](screenshot.png)
 
 ## Problem Statement
 
