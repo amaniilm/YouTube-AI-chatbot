@@ -4,11 +4,13 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import  streamlit as st
 import os
+
 st.set_page_config(
     page_title="YouTube AI Chatbot",
     page_icon="🎥"
 )
 st .title("🎥 YouTube video AI Chatbot")
+st.write("version 2")
 if "GOOGLE_API_KEY" not in st.secrets:
     st.error("google api key not found in streamlit")
     st.stop()
